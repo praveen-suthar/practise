@@ -1,0 +1,40 @@
+// data get from dropdown 
+
+// import { useState } from "react";
+// import { capitalOfIndia } from "../data/data.js";
+
+// const Practise = () => {
+//   const [data, setData] = useState(capitalOfIndia); // State to hold the list of states
+//   const [selectedState, setSelectedState] = useState(null); // State to hold the selected state data
+
+//   const handleChange = (event) => {
+//     const dd = event.target.selectedIndex;
+//     console.log("DD", dd)
+//     const selectedState = data[dd];
+//     setSelectedState(selectedState); // Update the selected state data
+//   };
+
+//   return (
+//     <div>
+      // <select onChange={handleChange} defaultValue="">
+      //   <option value="" disabled>Select a state</option>
+      //   {data.map((item, index) => (
+      //     <option key={index} value={item.state}>
+      //       {item.state}
+      //     </option>
+      //   ))}
+      // </select>
+
+//       {selectedState && (
+//         <div>
+//           <h3>Selected State Details:</h3>
+//           <p><strong>State:</strong> {selectedState.state}</p>
+//           <p><strong>Capital:</strong> {selectedState.capital}</p>
+//           <p><strong>Language:</strong> {selectedState.language}</p>
+//         </div>
+//       )}
+//     </div>
+//   );
+// };
+
+// export default Practise;
