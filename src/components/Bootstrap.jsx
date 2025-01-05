@@ -10,7 +10,7 @@ const Bootstrap = () => {
   </Col>
   <Col style={{ background: 'lightgreen' }}>Sibling Col</Col>
   {/* Implement Bootstrap */}
-
+  <p> Hello</p>
   <p>With new branch</p>
 
 </Row>
