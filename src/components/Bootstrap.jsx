@@ -6,7 +6,7 @@ const Bootstrap = () => {
 
     <Row className="g-3">
   <Col style={{ background: 'red' }} >
-    <p>Praveen suthar</p>
+    <p>Praveen suthar </p> 
   </Col>
   <Col style={{ background: 'lightgreen' }}>Sibling Col</Col>
 </Row>
