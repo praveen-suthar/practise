@@ -6,7 +6,8 @@ const Dashboard = () => {
 
   return (
     <div>
-      <p>TodoList</p>
+      <p>TodoList Example</p>
+      <p>Create TODO for practise</p>
       {
         data.map((item, index)=> {
           return ( 
