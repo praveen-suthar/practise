@@ -161,3 +161,5 @@ export const capitalOfIndia = [
     },
   ];
   
+
+  // all indian state with it's capital
